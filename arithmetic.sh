@@ -7,3 +7,4 @@ read -p "enter c value:" c
 op1=$(($a+$b*$c))
 op2=$(($a*$b+$c))
 op3=$(($c+$a/$b))
+op4=$(($a%$b+$c))
