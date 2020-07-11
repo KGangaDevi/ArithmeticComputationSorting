@@ -6,4 +6,4 @@ read -p "enter b value:" b
 read -p "enter c value:" c
 op1=$(($a+$b*$c))
 op2=$(($a*$b+$c))
-
+op3=$(($c+$a/$b))
