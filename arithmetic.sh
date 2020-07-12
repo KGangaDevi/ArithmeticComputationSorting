@@ -25,9 +25,6 @@ do
         fi
     done
 done
+echo "Sorted Array Ascending order"
 echo ${arr[@]}
-echo "Sorted Array Descending order"
-for ((i=${#arr[@]};i>=1;i--))
-do
-	echo "${arr[i]}"
-done
+
